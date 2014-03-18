@@ -1,6 +1,6 @@
 import collections
 from org.apache.pig.scripting import *
-input_path = 'tmp.txt' #Set to whatever your input path and filename are
+input_path = 'sample.tsv' #Set to whatever your input path and filename are
 #First, we run an embedded job to find all the distinct levels of model and make
 find_distincts = """
 A = LOAD '$INPUT' USING PigStorage() AS (user:chararray
