@@ -1,4 +1,6 @@
-pivoting_in_pig
+Pivoting in Pig
 ===============
 
-An example of how to create a pivot table in Apache Pig, based off my response to a StackOverflow question.
+###An example of how to create an Excel-like pivot table in Apache Pig
+
+This an embedded Pig script based off [this Stack Overflow question](http://stackoverflow.com/questions/22416883/advanced-pivot-table-in-pig/22469696#22469696). I've included the example data the questioner uses. It's extensible to more factor levels than the sample data provides, but some modifications need to be done before it can pivot on any number of rows or columns.
